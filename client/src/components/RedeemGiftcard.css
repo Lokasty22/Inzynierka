@@ -1,0 +1,60 @@
+.giftcard-information {
+  margin-top: 4rem;
+  padding: 20px;
+}
+
+.giftcard-information .giftcard-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #007bff;
+  box-shadow: 0 0.5rem rgba(0, 0, 0, 0.15);
+  padding: 40px;
+  border-radius: 0.25rem;
+  margin: 20px auto;
+  width: 50%;
+  position: relative;
+}
+
+.giftcard-information .giftcard-section .arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.giftcard-information .giftcard-section .left {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.giftcard-information .giftcard-section h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.giftcard-information .giftcard-section p {
+  color: #fff;
+}
+
+.giftcard-information .giftcard-section input {
+  display: block;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  outline: none;
+  border: 1px;
+  width: 75%;
+}
+
+.giftcard-information .giftcard-section button {
+  margin-top: 1.5rem;
+  font-size: 16px;
+  padding: 10px 40px;
+}

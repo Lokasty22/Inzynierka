@@ -1,0 +1,32 @@
+.star {
+    transition: color 200ms;
+}
+
+.star:hover {
+    color: #ffdb58;
+}
+
+.blockquote {
+    border-left: 5px solid #0d6efd;
+    padding-left: 15px;
+}
+
+.edit-form {
+    margin-top: 20px;
+}
+
+.review-form .fa-star {
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ms-3 {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+}

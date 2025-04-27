@@ -1,0 +1,53 @@
+.newslatter-information {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.newslatter-information .newslatter-section {
+  background-color: #007bff;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.newslatter-information .newslatter-section h1 {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.newslatter-information .newslatter-section p {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.newslatter-information .newslatter-section button {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.newslatter-information .newslatter-section input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  outline: none;
+  text-align: center;
+  border: 1px;
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.newslatter-information .newslatter-section .modal-body p {
+  color: #000000;
+}
+
+.newslatter-information .newslatter-section .modal-header h4 {
+  color: #000000;
+}
+
+.newslatter-information .newslatter-section .modal-footer button {
+  font-size: 16px;
+  padding: 10px 40px;
+}

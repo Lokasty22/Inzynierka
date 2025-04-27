@@ -1,0 +1,79 @@
+.information-banner {
+  padding: 20px;
+  text-align: left;
+}
+
+.information-banner .information-section {
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+.information-banner .information-section h2 {
+  margin-bottom: 1rem;
+}
+
+.information-banner .information-section p {
+  margin-top: 1rem;
+}
+
+.information-banner .information-section {
+  margin-bottom: 1.5rem;
+}
+
+.about-section {
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+.about-section h2 {
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+}
+
+.custom-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.custom-list {
+  list-style: none;
+}
+.custom-list li {
+  padding: 10px;
+  background-color: #fff;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 10px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.15);
+}
+
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  margin-left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #007bff;
+  width: 10px;
+  height: 10px;
+}

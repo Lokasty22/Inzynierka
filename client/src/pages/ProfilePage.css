@@ -1,0 +1,16 @@
+.card {
+    background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+    border: none;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.list-group-item strong {
+    margin-right: 5px;
+}
+

@@ -1,0 +1,100 @@
+.balance-information{
+    width: 60%;
+    margin: 4rem auto 0 auto;
+}
+
+.balance-information .balance-section{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: #007bff;
+    box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.balance-information .balance-section .arrow{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.balance-information .balance-section .left{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.balance-information .balance-section h2{
+    color: #fff;
+}
+
+.balance-information .balance-section .balance-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.balance-information .balance-section .balance-container h2{
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.balance-information .balance-section .balance-box{
+    padding: 0.2rem 1rem;
+    background-color: #fff;
+    box-shadow: 0 0.5rem rgba(0, 0, 0, 0.10);
+    border-radius: 0.25rem;
+    border: 1px;
+}
+
+.balance-information .balance-section .balance-box p{
+    font-size: 24px;
+    margin-top: 1rem;
+    color: #000000;
+}
+
+
+.balance-information .balance-section .balance-container a {
+    align-self: flex-end;
+}
+
+.balance-information .balance-section .balance-container button{
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-top: 2rem;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+}
+.balance-section {
+    position: relative;
+  }
+  
+  .history-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.85rem;
+    padding: 5px 12px;
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .history-btn:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+
